@@ -14,9 +14,9 @@ const Footer = () => {
               <h1 className='text-red-500 text-2xl font-bold'>Zaptro</h1>
             </Link>
             <p className='mt-2 text-sm'>Powering Your World with the Best in Electronics.</p>
-            <p className='mt-2 text-sm'>123 Electronics St, Style City, NY 10001</p>
+            <p className='mt-2 text-sm'>Sarai Alamgir, Gujrat, Pakistan</p>
             <p className='text-sm'>Email: support@Zaptro.com</p>
-            <p className='text-sm'>Phone: (123) 456-7890</p>
+            <p className='text-sm'>Phone: +923245441634</p>
         </div>
         {/* customer service link */}
         <div className='mb-6 md:mb-0'>

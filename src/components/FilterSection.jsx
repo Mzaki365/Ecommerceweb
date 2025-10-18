@@ -31,11 +31,13 @@ const FilterSection = ({search, setSearch, brand, setBrand, priceRange, setPrice
              value={brand}
              onChange={handleBrandChange}
              >
-                {
-                    brandOnlyData?.map((item, index)=>{
-                        return <option key={index} value={item}>{item.toUpperCase()}</option>
-                    })
-                }
+               {
+  brandOnlyData?.map((item, index) => {
+    if (!item) return null; // skip invalid entries
+    return <option key={index} value={item}>{item.toUpperCase()}</option>;
+  })
+}
+
              </select>
 
              {/* price range  */}
